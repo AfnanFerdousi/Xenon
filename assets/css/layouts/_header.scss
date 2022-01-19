@@ -1,0 +1,30 @@
+.header-area {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 20px 0;
+    a {
+        color: #fff !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+      }
+    .navbar-brand {
+        font-size: 24px;
+        border: 1px solid #fff;
+        padding: 3px 18px;
+      }  
+    .navbar-nav{
+        transition:.3s;        
+        li{
+            a{
+                &:hover {
+                    color: #ff3636 !important;
+                }
+            }
+        }
+    }  
+}
+
+ 

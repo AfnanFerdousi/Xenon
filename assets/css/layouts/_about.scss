@@ -1,0 +1,31 @@
+.about-content{
+    h4 {
+        font-size: 38px;
+        font-weight: 700;
+        color: #ff3636;
+      }
+    h5 {
+        margin-bottom: 30px;
+        font-weight: 400;
+      }
+    p {
+        font-size: 16px;
+        color: #333;
+        font-weight: 400;
+      }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            margin-bottom: 5px;
+            font-weight: 500;
+            i {
+                color: #ff3636;
+              }
+          }
+      }
+    a {
+        margin-top: 27px;
+      }
+}

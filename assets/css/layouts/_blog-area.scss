@@ -1,0 +1,76 @@
+.blog-area{
+    background-color:#f6f6f6;
+    .single-blog{
+        background-color:#fff;
+        border:1px solid #f2f2f2;  
+        &:hover{
+            .blog-img{
+                overflow:hidden;
+                img{
+                    width: 100%;
+                    transform:rotate(4deg) scale(1.1);
+                    -webkit-transform:rotate(3deg)(s);
+                    -moz-transform:rotate(4deg)(s);
+                    -ms-transform:rotate(4deg)(s);
+                    -o-transform:rotate(4deg)(s);
+                }
+            }
+        }      
+        .blog-img{
+            img{
+                width:100%;
+                transition:.3s;
+            }
+        }
+        .blog-content{
+            padding:20px 10px;
+            h4{
+                font-size:25px;
+                font-weight:600;
+                text-transform:capitalize;
+                transition:.3s;
+                &:hover{
+                    color: #ff3636;
+                }
+            }
+            p{
+                margin-bottom:25px;
+                font-weight:400;
+            }
+            ul{
+                list-style: none;
+                margin:0;
+                padding:0;
+                margin-top:3px;
+                margin-bottom:20px;                
+                li{
+                    display: inline-block;
+                    position:relative;
+                    margin-right:10px;
+                    &:last-child{
+                        &:after{
+                            display:none;
+                        }
+                    }
+                    &:after{
+                        position:absolute;
+                        content:"";
+                        width:5px;
+                        height:5px;
+                        top:12px;
+                        right:-11px;
+                        background-color:#333;
+                    }
+                    a{
+                        transition:.3s;
+                        font-weight:500;
+                        font-style:italic;
+                        &:hover{
+                            color:#ff3636;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
